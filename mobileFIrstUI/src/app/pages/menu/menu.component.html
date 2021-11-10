@@ -1,0 +1,12 @@
+<div (click)="show()">
+    <app-menu-nav></app-menu-nav>
+    <div class="nav-container">
+        <div *ngFor="let nav of navs;let i = index">
+            <div class="nav-title">
+                {{nav.title}}
+                <img [class.rotate]="i !== 0" src="../../../assets/images/arrow-down.png" alt="">
+            </div>
+            <div *ngFor="let child of nav.children" class="nav-chilren">{{child.title}}</div>
+        </div>
+    </div>
+</div>

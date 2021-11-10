@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1300px) {
+    .footer {
+        flex-direction: column;
+    }
+    .first-content {
+        width: auto;
+        flex-direction: column;
+        text-align: center;
+        font-size: 16px;
+        i {
+            font-size: 1.5rem;
+        }
+        .dots-container {
+            display: flex;
+            .margin-3 {
+                margin-right: 3px;
+            }
+        }
+        .navs {
+            width: 337px;
+            .separator {
+                height: 16px;
+                width: 0;
+                border-left: 1.5px solid rgba(#707070, .6);
+                margin-left: .5rem;
+                margin-right: .5rem;
+                margin-top: 10px;
+                line-height: 3rem;
+            }
+        }
+    }
+    .second-content {
+        background: white;
+        width: auto;
+        text-align: center;
+        font-family: 'Noto Sans';
+        color: #606060;
+        font-size: 12px;
+        padding: 3rem
+    }
+    .footer-icon {
+        margin: calc(44px-10px);
+        margin-top: -10px;
+    }
+    .hidden-on-dekstop {
+        display: inherit !important;
+    }
+}

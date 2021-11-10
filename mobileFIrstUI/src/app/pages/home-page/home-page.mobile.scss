@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1550px) {
+    .first-content {
+        height: 215px;
+        background-size: 260.2px 95.51px;
+        h1 {
+            font-size: 18px;
+            width: 278px;
+        }
+        button {
+            border-radius: 28px;
+            width: 128px;
+            height: 40px;
+            font-size: 12pt;
+            padding: 6px 10px
+        }
+    }
+    .second-content {
+        padding-top: 2.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .carousel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            color: #A8A8A8;
+            font-size: 18px;
+            text-align: center;
+            font-family: Arial;
+            font-weight: normal;
+            padding: 1rem 2rem;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1300px) {
+    .carousel-container {
+        .dots-container {
+            margin: 0px;
+        }
+        padding: 40px;
+        h1 {
+            width: 52px;
+            height: 49px;
+            font-size: 18px;
+            margin: 0
+        }
+        p {
+            width: 310px;
+            font-size: 16px;
+            margin-top: -10px;
+            margin-bottom: -20px;
+        }
+        button {
+            margin-bottom: 0px
+        }
+    }
+}

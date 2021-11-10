@@ -1,0 +1,55 @@
+ .carousel-container {
+     .dots-container {
+         margin: 20px;
+     }
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     h1 {
+         height: 49px;
+         font-family: 'Noto Sans';
+         font-size: 2rem;
+         text-align: center;
+         text-transform: uppercase;
+         color: #A8A8A8;
+         margin: 20px
+     }
+     p {
+         height: 71px;
+         font-family: 'Arial';
+         font-size: 1.5rem;
+         text-align: center;
+         color: #A8A8A8;
+         margin: 0;
+         margin-top: -10px;
+         margin-bottom: -20px;
+     }
+     .second-title {
+         margin-bottom: -12px;
+         margin-top: 12px;
+     }
+     button {
+         width: 126px;
+         height: 39px;
+         font-family: 'Arimo';
+         font-size: 14px;
+         text-align: center;
+         color: #707070;
+         margin-bottom: 20px;
+         border-radius: 30px;
+         border: none;
+         font-weight: normal;
+         background: #DBD8D8;
+     }
+     .carousel-wrapper {
+         display: flex;
+         align-items: center;
+     }
+     .arrow {
+         margin: 30px
+     }
+ }
+ 
+ .gray {
+     background-color: #F7F7F7;
+ }

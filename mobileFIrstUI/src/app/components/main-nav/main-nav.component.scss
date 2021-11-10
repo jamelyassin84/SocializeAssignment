@@ -1,0 +1,58 @@
+.nav {
+    display: flex;
+    height: 69px;
+    padding: 0px 26.75px;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(#707070, 1);
+    position: sticky;
+    background: white;
+    position: -webkit-sticky;
+    top: 0;
+    /* required */
+    .separator {
+        height: 29.79px;
+        width: 0;
+        border-left: 1px solid rgba(#707070, 1);
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .line {
+        width: 27.58px;
+        border: 1px solid rgba(#707070, 1);
+        margin: 4px;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+    }
+    .book {
+        display: none;
+        display: none;
+    }
+    .pin {
+        display: none;
+        display: none;
+    }
+    // present 
+    .app-name {
+        font-family: Arial;
+    }
+    a {
+        padding: 10px 30px;
+        background: #F7F7F7;
+        border: none;
+        border-radius: 30px;
+        font-family: Arial;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+}

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1300px) {
+    .nav {
+        box-shadow: none;
+        .book {
+            display: block;
+            width: 24.12;
+            height: 20.41px;
+        }
+        .pin {
+            display: block;
+            width: 15.04px;
+            height: 23.17px;
+        }
+        .app-name {
+            display: none;
+        }
+        a {
+            display: none;
+        }
+    }
+}

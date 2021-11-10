@@ -1,0 +1,55 @@
+.first-content {
+    width: 100%;
+    height: 70vh;
+    background-color: #F7F7F7;
+    background-image: url('../../../assets/images/mountainbg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7px;
+    h1 {
+        font-family: Noto Sans;
+        font-size: 3em;
+        text-align: center;
+        color: #A8A8A8;
+        font-weight: bold;
+        letter-spacing: 1px;
+        height: 72px;
+    }
+    button {
+        margin-top: 1.2rem;
+        background: #E3E3E3;
+        border: none;
+        color: #707070;
+        font-family: Arimo;
+        font-weight: bold;
+        font-size: 3em;
+        padding: 20px 40px
+    }
+}
+
+.second-content {
+    padding-top: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2 {
+        color: #A8A8A8;
+        font-size: 18px;
+        text-align: center;
+        font-family: Arial;
+        font-weight: normal;
+        padding: 1rem 2rem;
+        margin: 0;
+    }
+}

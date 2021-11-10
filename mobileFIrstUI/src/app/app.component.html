@@ -1,0 +1,4 @@
+<div [@SlideLeft]="prepareRoute(outlet)" [@Dissolve]="prepareRoute(outlet)" [@SlideRight]="prepareRoute(outlet)">
+    <app-pop-up *ngIf="willShowPopUp" @Dissolve></app-pop-up>
+    <router-outlet #outlet="outlet"></router-outlet>
+</div>

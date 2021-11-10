@@ -1,0 +1,35 @@
+.nav-container {
+    padding: 0 33.5px;
+    .nav-title {
+        height: 26px;
+        font-family: 'Noto Sans';
+        font-size: 22px;
+        color: #646161;
+        font-weight: bold;
+        text-align: left;
+        display: flex;
+        padding: .8rem;
+        letter-spacing: 1px;
+        line-height: 28px;
+        padding-left: 0;
+        border-top: 1px solid #707070;
+        font-weight: 900;
+        width: 100%;
+        img {
+            margin-left: auto;
+            width: 26.67px;
+            height: 15.25px;
+        }
+        .rotate {
+            transform: rotate(268deg);
+        }
+    }
+    .nav-chilren {
+        border-top: 1px solid #BCB8B8;
+        width: 100%;
+        padding: 1rem;
+        padding-left: 0;
+        font-family: 'Arimo';
+        color: #707070;
+    }
+}

@@ -1,0 +1,27 @@
+<div class="nav">
+    <app-place-holder routerLink="/content-page" [width]="44" [height]="44" [iconWidth]="27.58" [iconHeight]="11.82" color="#CBCBCB"></app-place-holder>
+    <h1 class="app-name">Mobile First UI</h1>
+    <div class="right">
+        <div class="right" *ngIf="!isOnContentPage">
+            <a routerLink="/content-page">Contact</a>
+            <img class="book" routerLink="/content-page" src="../../../assets/images/book.png" alt="">
+            <div class="separator"></div>
+            <a routerLink="/content-page">Location</a>
+            <img class="pin" routerLink="/content-page" src="../../../assets/images/map-pin.png" alt="">
+            <div class="separator"></div>
+        </div>
+        <div class="right" *ngIf="isOnContentPage">
+            <a routerLink="/menu">Contact</a>
+            <img class="book" routerLink="/menu" src="../../../assets/images/book.png" alt="">
+            <div class="separator"></div>
+            <a routerLink="/menu">Location</a>
+            <img class="pin" routerLink="/menu" src="../../../assets/images/map-pin.png" alt="">
+            <div class="separator"></div>
+        </div>
+        <div routerLink="/menu" class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </div>
+</div>

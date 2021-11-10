@@ -1,0 +1,21 @@
+<app-main-nav></app-main-nav>
+<div class="first-content" routerLink="/content-page" appstopPropagation>
+    <ngx-parallax-scroll [config]="ngParallaxConf">
+        <h1>SHOULD YOU BE TALKING TO A DOCTOR ABOUT YOUR ASTHMA?</h1>
+    </ngx-parallax-scroll>
+    <button appstopPropagation (click)="show()">Take the test</button>
+</div>
+<div class="second-content" routerLink="/content-page">
+    <div class="carousel">
+        <app-place-holder [width]="92" [height]="92" [iconWidth]="68.37" [iconHeight]="29.3" color="#CBCBCB"></app-place-holder>
+
+        <app-place-holder [width]="117.61" [height]="117.61" [iconWidth]="87.41" [iconHeight]="37.46" color="#CBCBCB"></app-place-holder>
+
+        <app-place-holder [width]="92" [height]="92" [iconWidth]="68.37" [iconHeight]="29.3" color="#CBCBCB"></app-place-holder>
+    </div>
+    <h2>Are you monitoring your Asthma symptoms?</h2>
+</div>
+<app-dots routerLink="/content-page"></app-dots>
+<div routerLink="/content-page">
+    <app-footer></app-footer>
+</div>
